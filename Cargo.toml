@@ -12,7 +12,7 @@ exclude = ["data/*"]
 [dependencies]
 memmap = "^0.7"
 copyless = "^0.1"
-fitsdk = {path = "../fitsdk-rs"}
+fitsdk = { git = "https://github.com/richardbrodie/fitsdk-rs.git", rev = "b0a639f98d450773e9c94dd42acf31c2da17e6aa" }
 
 [[bin]]
 name = "test_std"
